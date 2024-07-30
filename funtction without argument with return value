@@ -1,0 +1,14 @@
+// Define a function named `hello` without parameters
+function hello() {
+    // Perform a calculation or any operation
+    var sum = 10 + 20;
+
+    // Return the result of the calculation
+    return sum;
+}
+
+// Call the hello function and store its return value
+var result = hello();
+
+// Print the return value to the console
+console.log('The sum is: ' + result);
