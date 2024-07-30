@@ -1,0 +1,8 @@
+// Import the readline-sync module
+var read = require('readline-sync');
+
+// Prompt the user to enter a number
+var value = read.question('Enter a number: ');
+
+// Print the entered number
+console.log(value);
