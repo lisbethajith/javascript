@@ -1,4 +1,9 @@
-var a=10
-var b=20
-sum=a+b
-console.log(sum)
+// Declare and initialize variables
+var a = 10;
+var b = 20;
+
+// Calculate the sum of the two variables
+var sum = a + b;
+
+// Print the result
+console.log(sum);
