@@ -1,0 +1,11 @@
+// Define a function named hello that takes two parameters: num1 and num2
+function hello(num1, num2) {
+    // Calculate the sum of num1 and num2
+    var sum = num1 + num2;
+
+    // Print the sum to the console with a message
+    console.log('Sum is: ' + sum);
+}
+
+// Call the hello function with arguments 10 and 20
+hello(10, 20);
