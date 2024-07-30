@@ -1,0 +1,12 @@
+//simple function
+// Define a function named hello
+function hello() {
+    // Print 'hello' to the console
+    console.log('hello');
+    
+    // Return the value 10
+    return 10;
+}
+
+// Call the hello function and print its return value to the console
+console.log(hello());
