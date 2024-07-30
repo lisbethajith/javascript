@@ -1,0 +1,15 @@
+// Import the readline-sync module
+var r = require('readline-sync');
+
+// Prompt the user to enter the first number
+var num1 = r.question('Enter the first number: ');
+
+// Prompt the user to enter the second number
+var num2 = r.question('Enter the second number: ');
+
+// Compare the two numbers and print which one is larger
+if (num1 > num2) {
+    console.log('Larger number is: ' + num1);
+} else {
+    console.log('Larger number is: ' + num2);
+}
