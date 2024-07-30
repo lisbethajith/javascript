@@ -1,0 +1,20 @@
+// Import the readline-sync module
+var r = require('readline-sync');
+
+// Prompt the user to enter a number from 1 to 3
+var num = parseInt(r.question('Enter a number between 1 and 3: '));
+
+// Use a switch statement to execute different code based on the value of num
+switch (num) {
+    case 1:
+        console.log('You entered number one.');
+        break;
+    case 2:
+        console.log('You entered number two.');
+        break;
+    case 3:
+        console.log('You entered number three.');
+        break;
+    default:
+        console.log('Number is out of range. Please enter a number between 1 and 3.');
+}
