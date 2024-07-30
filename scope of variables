@@ -1,0 +1,29 @@
+// Declare a global variable named num
+var num = 10;
+
+// Define a function named hello
+function hello() {
+    // Declare a local variable named num within the hello function
+    var num = 20;
+
+    // Define a nested function named hey
+    function hey() {
+        // Declare a local variable named num within the hey function
+        var num = 30;
+
+        // Print the value of num from within the hey function
+        console.log(num); // This will print 30
+    }
+
+    // Call the hey function
+    hey();
+
+    // Print the value of num from within the hello function
+    console.log(num); // This will print 20
+}
+
+// Call the hello function
+hello();
+
+// Print the value of the global num variable
+console.log(num); // This will print 10
